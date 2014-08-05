@@ -1,0 +1,30 @@
+﻿a.nav {
+  display: block; 
+  float: left;
+  padding-right: 9px;
+  background: url(./right.png) top right no-repeat;  
+  text-decoration: none;  
+}
+
+a.nav span {
+  display: block; 
+  line-height: 11px; 
+  background: url(./left.png) no-repeat; 
+  padding: 2px 0 6px 9px;
+  color: #ddd;
+  white-space: nowrap;
+}
+
+a.nav span b {
+font-weight: bold;
+color: inherit;
+}
+
+a.nav:hover {
+  background-position: 100% -19px;
+}
+
+a.nav:hover span {
+  background-position: 0% -19px; 
+  color: #fff; 
+}
